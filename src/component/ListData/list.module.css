@@ -1,0 +1,73 @@
+.listMain {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  margin-left: 5%;
+}
+.editInput {
+  display: flex;
+  margin-left: 5%;
+}
+.editInput input {
+  height: 2vw;
+  width: 25%;
+  margin: 1%;
+}
+.editInput button {
+  margin-top: 1%;
+  width: 50px;
+  height: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.footer_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  /* width: 80%; */
+  text-align: center;
+}
+.footer_delete {
+  width: 150px;
+  height: 40px;
+  margin-right: 1%;
+  background-color: rgb(210, 11, 11);
+  color: white;
+  border: none;
+ 
+  cursor: pointer;
+  border-radius: 5px;
+}
+.footer_page {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 0.5%;
+  background-color: rgb(18, 88, 219);
+  color: white;
+  cursor: pointer;
+}
+.action_edit_btn {
+  background-color: rgb(18, 88, 219);
+  width: 50px;
+  height: 20px;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  margin-left: -5%;
+  cursor: pointer;
+}
+.action_delete_btn {
+  background-color: rgb(210, 11, 11);
+  width: 50px;
+  height:20px;
+  color: white;
+  border: none;
+  border-radius:3px;
+  margin-left: 1.5%;
+  cursor: pointer;
+}

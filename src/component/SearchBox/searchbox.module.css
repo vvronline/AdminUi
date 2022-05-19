@@ -1,0 +1,17 @@
+.inputbox {
+  float: left;
+  width: 70%;
+  height: 2vw;
+  margin-left: 5%;
+}
+.form_Search {
+  margin-top: 3%;
+}
+.button_Search {
+  margin-left: 1%;
+  margin-top: 3px;
+  border-radius: 5px;
+  height: 2vw;
+  background-color: black;
+  color: white;
+}
